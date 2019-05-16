@@ -12,7 +12,7 @@ public class RevString{
         for(int i = gem.length()-1; i >= 0; i--){ //
             reverse = reverse + gem.charAt(i);
         } 
-        System.out.print("The reversed string is: ")
-;        System.out.println(reverse);
+        System.out.print("The reversed string is: ");
+        System.out.println(reverse);
     }
 }
