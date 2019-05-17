@@ -5,7 +5,7 @@ public class UserOperation{
     public static void main(String args[]){
         Scanner accept = new Scanner(System.in);
 
-        System.out.println("Hi!\n here are the list of operation you can perform \n1)Addition \n2) Subtraction \n3) multiplication \n4) Divisio \n5) Modulus \n6) Power");
+        System.out.println("Hi!\n here are the list of operation you can perform \n1)Addition \n2) Subtraction \n3) multiplication \n4) Divisio \n5) Modulus \n6) Power \n\n");
 
         System.out.println("Pls enter your first number");
         int number1  = accept.nextInt();
@@ -37,11 +37,11 @@ public class UserOperation{
              System.out.println("The modulus of the numbers inputed is: "+ modulus);
 
         }else if(operation == 6){
-            int ist = number1; 
-        int scd = number2;
+            int firstNumber = number1; 
+            int secondNumber = number2;
             int result = 1;
-            for(int i = 0;i < number2; i++){
-                result *= number1 ;
+            for(int i = 0; i < secondNumber; i++){
+                result *= firstNumber ;
             }
             System.out.println("The power of Number1 "+ result);
         }
