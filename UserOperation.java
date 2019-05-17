@@ -11,7 +11,7 @@ public class UserOperation{
         int number1  = accept.nextInt();
         System.out.println("Pls enter the operation you will like to perform on the numbers inputed");
         int operation = accept.nextInt();
-        System.out.println("Pls enter your second number");
+        System.out.printf("%s%n", "Pls enter your second number");
         int number2  = accept.nextInt();
         
 
@@ -36,11 +36,15 @@ public class UserOperation{
             int modulus = number1 % number2;
              System.out.println("The modulus of the numbers inputed is: "+ modulus);
 
-        }/*else if(operation == 6){
-            int power = number1 ** number2;
-            
-             System.out.printf("%S%n The power of the number inputed is: "+ power);
-        }*/
+        }else if(operation == 6){
+            int ist = number1; 
+        int scd = number2;
+            int result = 1;
+            for(int i = 0;i < number2; i++){
+                result *= number1 ;
+            }
+            System.out.println("The power of Number1 "+ result);
+        }
 
         else{
             System.out.println("invalid operation inputed");
