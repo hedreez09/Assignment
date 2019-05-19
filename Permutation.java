@@ -1,7 +1,6 @@
-/**
+/**Program to compute permutation of two value X and Y
 
-
- */
+Author Idris Wonuola  Date:19/05/2019 */
 
 import java.util.Scanner;
 public class Permutation{
